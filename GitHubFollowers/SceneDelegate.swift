@@ -1,9 +1,11 @@
+//  /*
 //
-//  SceneDelegate.swift
-//  GitHubFollowers
+//  Project: GitHubFollowers
+//  File: SceneDelegate.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 12.01.2024
 //
-//  Created by Elaidzha Shchukin on 12.01.2024.
-//
+//  */
 
 import UIKit
 
@@ -11,12 +13,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
+// Window the App / When you have two windows on your IPad, Launch the App.
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = FirstScreen()
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
