@@ -18,6 +18,7 @@
 		E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E494452C2B51E73100EA90AC /* FollowerListVC.swift */; };
 		E494452F2B51F56000EA90AC /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E494452E2B51F56000EA90AC /* GFTitleLabel.swift */; };
 		E49445312B51F95400EA90AC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49445302B51F95400EA90AC /* GFBodyLabel.swift */; };
+		E49445332B51FACA00EA90AC /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49445322B51FAC900EA90AC /* GFAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E494452C2B51E73100EA90AC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		E494452E2B51F56000EA90AC /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		E49445302B51F95400EA90AC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		E49445322B51FAC900EA90AC /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E494452C2B51E73100EA90AC /* FollowerListVC.swift */,
 				E494452E2B51F56000EA90AC /* GFTitleLabel.swift */,
 				E49445302B51F95400EA90AC /* GFBodyLabel.swift */,
+				E49445322B51FAC900EA90AC /* GFAlertVC.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				E45D957E2B51241E00A682FC /* FavoritesListVC.swift in Sources */,
 				E45D95802B51354000A682FC /* GFButton.swift in Sources */,
 				E45D957C2B51237C00A682FC /* SearchVC.swift in Sources */,
+				E49445332B51FACA00EA90AC /* GFAlertVC.swift in Sources */,
 				E49445312B51F95400EA90AC /* GFBodyLabel.swift in Sources */,
 				E494452F2B51F56000EA90AC /* GFTitleLabel.swift in Sources */,
 				E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */,
