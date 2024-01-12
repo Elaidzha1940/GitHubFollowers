@@ -18,9 +18,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
        
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
+        let searchNavigationController = UINavigationController(rootViewController: SearchVC())
+        let favoritesNavigationController = UINavigationController(rootViewController: FavoritesListVC())
+        
+        let tabbar = UITabBarController()
+        tabbar.viewControllers = [searchNavigationController, favoritesNavigationController]
+        
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = FirstScreen()
+        window?.rootViewController = tabbar
         window?.makeKeyAndVisible()
     }
 
