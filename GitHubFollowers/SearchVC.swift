@@ -14,7 +14,11 @@ class SearchVC: UIViewController {
     let logoImageView = UIImageView()
     let usernameTextField = GFTextField()
     let callToActionButton = GFButton(backgroundColor: .systemGreen, title: "Get Followers")
-
+    
+    var isUsernameEntered: Bool {
+        return !usernameTextField.text!.isEmpty
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -35,6 +39,15 @@ class SearchVC: UIViewController {
     }
     
     @objc func pushFollowerListVC() {
+        guard isUsernameEntered else {
+            print("No username")
+            return
+        }
+        
+        let followerListVC = FollowerListVC()
+        followerListVC.username = usernameTextField.text ?? ""
+        followerListVC.title = usernameTextField.text
+        navigationController?.pushViewController(followerListVC, animated: true)
         
     }
     
@@ -78,7 +91,7 @@ class SearchVC: UIViewController {
 
 extension SearchVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        print("Did Tap Return")
-        return true  
+        pushFollowerListVC()
+        return true
     }
 }
