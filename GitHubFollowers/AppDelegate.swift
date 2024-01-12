@@ -1,9 +1,11 @@
+//  /*
 //
-//  AppDelegate.swift
-//  GitHubFollowers
+//  Project: GitHubFollowers
+//  File: AppDelegate.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 12.01.2024
 //
-//  Created by Elaidzha Shchukin on 12.01.2024.
-//
+//  */
 
 import UIKit
 
