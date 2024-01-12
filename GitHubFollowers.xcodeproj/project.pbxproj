@@ -15,6 +15,7 @@
 		E45D957E2B51241E00A682FC /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D957D2B51241E00A682FC /* FavoritesListVC.swift */; };
 		E45D95802B51354000A682FC /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D957F2B51354000A682FC /* GFButton.swift */; };
 		E45D95822B513A1B00A682FC /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D95812B513A1B00A682FC /* GFTextField.swift */; };
+		E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E494452C2B51E73100EA90AC /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E45D957D2B51241E00A682FC /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		E45D957F2B51354000A682FC /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		E45D95812B513A1B00A682FC /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		E494452C2B51E73100EA90AC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E45D957D2B51241E00A682FC /* FavoritesListVC.swift */,
 				E45D957F2B51354000A682FC /* GFButton.swift */,
 				E45D95812B513A1B00A682FC /* GFTextField.swift */,
+				E494452C2B51E73100EA90AC /* FollowerListVC.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				E45D957E2B51241E00A682FC /* FavoritesListVC.swift in Sources */,
 				E45D95802B51354000A682FC /* GFButton.swift in Sources */,
 				E45D957C2B51237C00A682FC /* SearchVC.swift in Sources */,
+				E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */,
 				E45D95682B5106F700A682FC /* AppDelegate.swift in Sources */,
 				E45D956A2B5106F700A682FC /* SceneDelegate.swift in Sources */,
 			);
