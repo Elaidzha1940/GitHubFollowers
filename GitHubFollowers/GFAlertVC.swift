@@ -14,10 +14,45 @@ class GFAlertVC: UIViewController {
     let titleLabel = GFTitleLabel(textAlignment: .center, fontSize: 20)
     let messageLabel = GFBodyLabel(textAlignment: .center)
     let actionButton = GFButton(backgroundColor:  .systemMint, title: "Ok")
-
+    
+    var alertTile: String?
+    var message: String?
+    var buttonTitle: String?
+    
+    init(tile: String, message: String, buttonTitle: String) {
+        super.init(nibName: nil, bundle: nil)
+        self.alertTile = title
+        self.message = message
+        self.buttonTitle = buttonTitle
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor(red: 0,  green: 0, blue: 0, alpha: 0.75)
+        configureContainerView()
+    }
+    
+    func configureContainerView() {
+        view.addSubview(containerView)
+        containerView.backgroundColor = .systemBackground
+        containerView.layer.cornerRadius = 15
+        containerView.layer.borderWidth = 3
+        containerView.layer.borderColor = UIColor.white.cgColor
+        containerView.translatesAutoresizingMaskIntoConstraints = false
         
+        NSLayoutConstraint.activate([
+            containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            containerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            containerView.widthAnchor.constraint(equalToConstant: 300),
+            containerView.heightAnchor.constraint(equalToConstant: 250),
+        ])
+    }
+    
+    func configureTitleLabel() {
+        containerView.addSubview(titleLabel)
     }
 }
