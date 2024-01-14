@@ -10,14 +10,14 @@
 import Foundation
 
 class NetworkManager {
-    let shared = NetworkManager()
-    let baseURL = "https://api.github.com/user/"
+    static let shared = NetworkManager()
+    let baseURL = "https://api.github.com/users/"
     
     private init() {}
     
     
     func getFollowers(for username: String, page: Int, completed: @escaping ([Follower]?, String?) -> ()) {
-        let endpoint = baseURL + "/users/\(username)/followers?per_page=100\(page)"
+        let endpoint = baseURL + "\(username)/followers?per_page=100\(page)"
         
         guard let url = URL(string: endpoint) else {
             completed(nil, "This username created an invalid request. Plese try again.")
