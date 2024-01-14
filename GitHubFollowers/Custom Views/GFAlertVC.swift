@@ -13,7 +13,7 @@ class GFAlertVC: UIViewController {
     let containerView = UIView()
     let titleLabel = GFTitleLabel(textAlignment: .center, fontSize: 20)
     let messageLabel = GFBodyLabel(textAlignment: .center)
-    let actionButton = GFButton(backgroundColor:  .systemMint, title: "Ok")
+    let actionButton = GFButton(backgroundColor:  .systemRed, title: "Ok")
     
     var alertTile: String?
     var message: String?
@@ -59,7 +59,7 @@ class GFAlertVC: UIViewController {
     
     func configureTitleLabel() {
         containerView.addSubview(titleLabel)
-        titleLabel.text = alertTile ?? "Somthing went wrong"
+        titleLabel.text = alertTile ?? "Empty username"
         
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: padding),
@@ -79,7 +79,7 @@ class GFAlertVC: UIViewController {
             actionButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -padding),
             actionButton.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: padding),
             actionButton.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding),
-            actionButton.heightAnchor.constraint(equalToConstant: 44)
+            actionButton.heightAnchor.constraint(equalToConstant: 55)
         ])
     }
     
@@ -92,7 +92,7 @@ class GFAlertVC: UIViewController {
             messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10),
             messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: padding),
             messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding),
-            messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -14),
+            messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -20),
         ])
     }
     
