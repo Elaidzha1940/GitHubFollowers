@@ -75,10 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				E4703DE62B538AC50019FEEC /* Model */,
-				E4703DE52B5373D50019FEEC /* Support */,
 				E4703DE42B5373600019FEEC /* Extansions */,
 				E4703DE32B5372C70019FEEC /* Custom Views */,
 				E4703DE22B5372770019FEEC /* Screens */,
+				E4703DE52B5373D50019FEEC /* Support */,
+				E45D95752B5106F900A682FC /* Info.plist */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -86,9 +87,9 @@
 		E4703DE22B5372770019FEEC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				E45D957D2B51241E00A682FC /* FavoritesListVC.swift */,
 				E45D957B2B51237C00A682FC /* SearchVC.swift */,
 				E494452C2B51E73100EA90AC /* FollowerListVC.swift */,
+				E45D957D2B51241E00A682FC /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -120,7 +121,6 @@
 				E45D95692B5106F700A682FC /* SceneDelegate.swift */,
 				E45D95702B5106F900A682FC /* Assets.xcassets */,
 				E45D95722B5106F900A682FC /* LaunchScreen.storyboard */,
-				E45D95752B5106F900A682FC /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
