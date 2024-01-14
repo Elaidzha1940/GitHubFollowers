@@ -9,4 +9,5 @@ GitHubFollowers.
 6. Project Organization & Architecture.
 7. Network Call Planning.
 8. Create Network Call - Get Follower.
-
+9. Refactor Error Messages.
+   
