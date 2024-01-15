@@ -1,9 +1,9 @@
 GitHubFollowers.
 ================
 
-1. Project Setup.                             11. UICollectionView - Follower Cell UI.                                            
-2. Custom UIButton & UITextField.             12. UICollectionView - Initial Setup.
-3. Search Screen UI.                          13. UICollectionView - Flow Layout.
+1. Project Setup.                                                                        
+2. Custom UIButton & UITextField.             
+3. Search Screen UI.                           
 4. Passing Data Between Views.
 5. Custom Alert.
 6. Project Organization & Architecture.
@@ -11,4 +11,8 @@ GitHubFollowers.
 8. Create Network Call - Get Follower.
 9. Refactor Error Messages.
 10. Result Type.
+---------------- 
+12. UICollectionView - Follower Cell UI.
+13. UICollectionView - Initial Setup.
+14. UICollectionView - Flow Layout.
    
