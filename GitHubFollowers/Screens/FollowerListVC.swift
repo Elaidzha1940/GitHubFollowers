@@ -27,15 +27,25 @@ class FollowerListVC: UIViewController {
     }
     
     func configureViewController() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .systemGray3
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     func configureCollectionView() {
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewLayout())
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createThreeColumnFlowLayout())
         view.addSubview(collectionView)
-        collectionView.backgroundColor = .systemCyan
+        collectionView.backgroundColor = .systemGray
         collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
+    }
+    
+    func createThreeColumnFlowLayout() -> UICollectionViewFlowLayout  {
+        let width = view.bounds.width
+        let padding: CGFloat = 12
+        let minimumItemSpacing: CGFloat = 10
+        let availableWidth = width - (padding * 2) - (minimumItemSpacing * 2)
+        
+        
+        return UICollectionViewFlowLayout()
     }
     
     func getFollowers() {
