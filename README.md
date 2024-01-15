@@ -11,4 +11,5 @@ GitHubFollowers.
 8. Create Network Call - Get Follower.
 9. Refactor Error Messages.
 10. Result Type.
+11. UICollectionView - Follower Cell UI
    
