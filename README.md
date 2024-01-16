@@ -16,4 +16,5 @@ GitHubFollowers.
 13. UICollectionView - Initial Setup.
 14. UICollectionView - Flow Layout.
 15. UICollectionView - Diffable Data Source.
+16. ARC, Memory Leaks, Capture Lists.
    
