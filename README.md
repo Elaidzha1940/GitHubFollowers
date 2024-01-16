@@ -1,6 +1,12 @@
 GitHubFollowers.
 ================
 
+```````````ruby 
+[weak self]
+
+optional ? = guard let self = self else { return }
+```````````
+
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
 3. Search Screen UI.                           
@@ -17,4 +23,8 @@ GitHubFollowers.
 14. UICollectionView - Flow Layout.
 15. UICollectionView - Diffable Data Source.
 16. ARC, Memory Leaks, Capture Lists.
+17. Download & Cache Avatar Images.
+18. Pagination - Next 100 Followers.
+19. Loading View.
+20. Empty State.
    
