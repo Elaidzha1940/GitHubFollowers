@@ -65,6 +65,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E43343BB2B582F69008E932D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E43343BC2B582F7D008E932D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E45D957F2B51354000A682FC /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E43343BD2B582F8E008E932D /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				E45D95812B513A1B00A682FC /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		E43343BE2B58306F008E932D /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				E4703DF42B5585B30019FEEC /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		E43343BF2B58307E008E932D /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				E49445322B51FAC900EA90AC /* GFAlertVC.swift */,
+			);
+			path = ViewControlers;
+			sourceTree = "<group>";
+		};
+		E43343C02B5830DB008E932D /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				E494452E2B51F56000EA90AC /* GFTitleLabel.swift */,
+				E49445302B51F95400EA90AC /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		E45D955B2B5106F700A682FC = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +157,13 @@
 		E4703DE32B5372C70019FEEC /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				E43343C02B5830DB008E932D /* Labels */,
+				E43343BF2B58307E008E932D /* ViewControlers */,
+				E43343BE2B58306F008E932D /* ImageViews */,
+				E43343BD2B582F8E008E932D /* TextFields */,
+				E43343BC2B582F7D008E932D /* Buttons */,
+				E43343BB2B582F69008E932D /* Views */,
 				E4703DF12B5583E10019FEEC /* Cells */,
-				E49445322B51FAC900EA90AC /* GFAlertVC.swift */,
-				E45D957F2B51354000A682FC /* GFButton.swift */,
-				E45D95812B513A1B00A682FC /* GFTextField.swift */,
-				E494452E2B51F56000EA90AC /* GFTitleLabel.swift */,
-				E49445302B51F95400EA90AC /* GFBodyLabel.swift */,
-				E4703DF42B5585B30019FEEC /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -330,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -387,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
