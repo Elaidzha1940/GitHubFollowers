@@ -27,4 +27,11 @@ optional ? = guard let self = self else { return }
 18. Pagination - Next 100 Followers.
 19. Loading View.
 20. Empty State.
+-----------------
+21. Search Functionality.
+22. Modal & Passing Data.
+23. Network Call - Get User Info.
+24. User Info UI Planning.
+25. Child ViewController - UserInfoHeaderVC.
+ 
    
