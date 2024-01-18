@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4044F532B59D9B6000BDA9C /* UserInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4044F522B59D9B6000BDA9C /* UserInfoVc.swift */; };
+		E4044F532B59D9B6000BDA9C /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4044F522B59D9B6000BDA9C /* UserInfoVC.swift */; };
 		E43343C22B58316A008E932D /* GFEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43343C12B58316A008E932D /* GFEmptyState.swift */; };
 		E45D95682B5106F700A682FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D95672B5106F700A682FC /* AppDelegate.swift */; };
 		E45D956A2B5106F700A682FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45D95692B5106F700A682FC /* SceneDelegate.swift */; };
@@ -32,7 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4044F522B59D9B6000BDA9C /* UserInfoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVc.swift; sourceTree = "<group>"; };
+		E4044F522B59D9B6000BDA9C /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		E43343C12B58316A008E932D /* GFEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyState.swift; sourceTree = "<group>"; };
 		E45D95642B5106F700A682FC /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45D95672B5106F700A682FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				E45D957B2B51237C00A682FC /* SearchVC.swift */,
 				E494452C2B51E73100EA90AC /* FollowerListVC.swift */,
 				E45D957D2B51241E00A682FC /* FavoritesListVC.swift */,
-				E4044F522B59D9B6000BDA9C /* UserInfoVc.swift */,
+				E4044F522B59D9B6000BDA9C /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 				E43343C22B58316A008E932D /* GFEmptyState.swift in Sources */,
 				E4703DEA2B538C390019FEEC /* User.swift in Sources */,
 				E45D95822B513A1B00A682FC /* GFTextField.swift in Sources */,
-				E4044F532B59D9B6000BDA9C /* UserInfoVc.swift in Sources */,
+				E4044F532B59D9B6000BDA9C /* UserInfoVC.swift in Sources */,
 				E45D957E2B51241E00A682FC /* FavoritesListVC.swift in Sources */,
 				E45D95802B51354000A682FC /* GFButton.swift in Sources */,
 				E4703DE12B536CF50019FEEC /* UIViewController+Ext.swift in Sources */,
