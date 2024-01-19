@@ -62,7 +62,7 @@ class FollowerListVC: UIViewController {
     
     func getFollowers(username: String, page: Int) {
         showLoadingView()
-        NetworkManager.shared.getFollowers(for: username, page: page ) { [weak self] result in
+        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
             guard let self = self else { return }
             self.dismissLoadingView()
             
@@ -123,6 +123,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         let follower = activeArray[indexPath.item]
         
         let destinationVC = UserInfoVC()
+        destinationVC.username = follower.login
         let navigationController = UINavigationController(rootViewController: destinationVC)
         present(navigationController, animated: true)
     }

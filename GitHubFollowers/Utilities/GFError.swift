@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: GitHubFollowers
-//  File: ErrorMessage.swift
+//  File: GFError.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 14.01.2024
 //
