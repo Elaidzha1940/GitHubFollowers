@@ -33,6 +33,7 @@
 		E49AA7432B5A66BC001CA31D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AA7422B5A66BC001CA31D /* Constants.swift */; };
 		E4DA23452B5BD6D70028A0AE /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA23442B5BD6D70028A0AE /* GFItemInfoView.swift */; };
 		E4DA23472B5C2CB50028A0AE /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA23462B5C2CB50028A0AE /* GFItemInfoVC.swift */; };
+		E4DA23492B5C3BBB0028A0AE /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA23482B5C3BBB0028A0AE /* GFRepoItemVC.swift */; };
 		E4DEE07D2B5657B900D1013E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DEE07C2B5657B900D1013E /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		E49AA7422B5A66BC001CA31D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E4DA23442B5BD6D70028A0AE /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		E4DA23462B5C2CB50028A0AE /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
+		E4DA23482B5C3BBB0028A0AE /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		E4DEE07C2B5657B900D1013E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				E49445322B51FAC900EA90AC /* GFAlertVC.swift */,
 				E4044F542B5A1441000BDA9C /* GFUserInfoHeaderVC.swift */,
 				E4DA23462B5C2CB50028A0AE /* GFItemInfoVC.swift */,
+				E4DA23482B5C3BBB0028A0AE /* GFRepoItemVC.swift */,
 			);
 			path = ViewControlers;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				E4703DED2B53A9770019FEEC /* NetworkManager.swift in Sources */,
 				E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */,
 				E45D95682B5106F700A682FC /* AppDelegate.swift in Sources */,
+				E4DA23492B5C3BBB0028A0AE /* GFRepoItemVC.swift in Sources */,
 				E45D956A2B5106F700A682FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
