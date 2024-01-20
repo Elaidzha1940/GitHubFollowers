@@ -12,10 +12,10 @@ import UIKit
 class GFUserInfoHeaderVC: UIViewController {
     
     let avatarImageView = GFAvatarImageView(frame: .zero)
-    let usernameLabel = GFTitleLabel(textAlignment: .left, fontSize: 30)
-    let nameLabel = GFSecondaryTitleLabel(fontSize: 15)
+    let usernameLabel = GFTitleLabel(textAlignment: .left, fontSize: 34)
+    let nameLabel = GFSecondaryTitleLabel(fontSize: 18)
     let locationImageView = UIImageView()
-    let locationLabel = GFSecondaryTitleLabel(fontSize: 15)
+    let locationLabel = GFSecondaryTitleLabel(fontSize: 18)
     let bioLabel = GFBodyLabel(textAlignment: .left)
     
     var user: User!
@@ -58,7 +58,7 @@ class GFUserInfoHeaderVC: UIViewController {
     }
     
     func layoutUI() {
-        let padding: CGFloat = 20
+        let padding: CGFloat = 10
         let textImagePadding: CGFloat = 12
         locationImageView.translatesAutoresizingMaskIntoConstraints = false
         
