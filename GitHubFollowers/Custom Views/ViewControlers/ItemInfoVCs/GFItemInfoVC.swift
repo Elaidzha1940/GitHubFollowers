@@ -52,13 +52,12 @@ class GFItemInfoVC: UIViewController {
         view.addSubview(actionButton)
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        
         let padding: CGFloat = 20
         
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
             stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
-            stackView.topAnchor.constraint(equalTo: view.topAnchor, constant: -padding),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             stackView.heightAnchor.constraint(equalToConstant: 50),
             
             actionButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -padding),
