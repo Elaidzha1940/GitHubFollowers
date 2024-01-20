@@ -31,6 +31,7 @@
 		E49445312B51F95400EA90AC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49445302B51F95400EA90AC /* GFBodyLabel.swift */; };
 		E49445332B51FACA00EA90AC /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49445322B51FAC900EA90AC /* GFAlertVC.swift */; };
 		E49AA7432B5A66BC001CA31D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49AA7422B5A66BC001CA31D /* Constants.swift */; };
+		E4DA23452B5BD6D70028A0AE /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA23442B5BD6D70028A0AE /* GFItemInfoView.swift */; };
 		E4DEE07D2B5657B900D1013E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DEE07C2B5657B900D1013E /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		E49445302B51F95400EA90AC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		E49445322B51FAC900EA90AC /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		E49AA7422B5A66BC001CA31D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E4DA23442B5BD6D70028A0AE /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		E4DEE07C2B5657B900D1013E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				E43343C12B58316A008E932D /* GFEmptyState.swift */,
+				E4DA23442B5BD6D70028A0AE /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				E4703DE12B536CF50019FEEC /* UIViewController+Ext.swift in Sources */,
 				E4DEE07D2B5657B900D1013E /* UIHelper.swift in Sources */,
 				E4703DF52B5585B30019FEEC /* GFAvatarImageView.swift in Sources */,
+				E4DA23452B5BD6D70028A0AE /* GFItemInfoView.swift in Sources */,
 				E45D957C2B51237C00A682FC /* SearchVC.swift in Sources */,
 				E49445332B51FACA00EA90AC /* GFAlertVC.swift in Sources */,
 				E4044F552B5A1441000BDA9C /* GFUserInfoHeaderVC.swift in Sources */,
