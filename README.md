@@ -33,5 +33,10 @@ optional ? = guard let self = self else { return }
 23. Network Call - Get User Info.
 24. User Info UI Planning.
 25. Child ViewController - UserInfoHeaderVC.
+26. UserInfoVC Cleanup.
+27. Item Info View.
+28. ItemInfoVC - Superclass.
+29. ItemInfoVC - Subclass.
+30. Date Conversion & Date Label.
  
    
