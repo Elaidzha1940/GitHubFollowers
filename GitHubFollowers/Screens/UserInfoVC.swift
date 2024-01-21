@@ -8,7 +8,6 @@
 //  */
 
 import UIKit
-import SafariServices
 
 protocol UserInfoVCDelegate: AnyObject {
     func didTapGitGubProfile(for user: User)
@@ -113,14 +112,13 @@ extension UserInfoVC: UserInfoVCDelegate {
     func didTapGitGubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
+            return
         }
         
-        let safariVC = SFSafariViewController(url: url)
-        safariVC.preferredControlTintColor = .systemGreen
-        present(safariVC, animated: true)
+        presentSafariVC(with: url)
     }
     
     func didTapGitGubFollowers(for user: User) {
-        <#code#>
+        // t
     }
 }
