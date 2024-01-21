@@ -128,6 +128,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         
         let destinationVC = UserInfoVC()
         destinationVC.username = follower.login
+        destinationVC.delegate = self
         let navigationController = UINavigationController(rootViewController: destinationVC)
         present(navigationController, animated: true)
     }
@@ -150,6 +151,12 @@ extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
 
 extension FollowerListVC: FollowerListVCDelegate {
     func didRequestFollowers(for username: String) {
-        // get followers
+        self.username = username
+        title = username
+        page = 1
+        followers.removeAll()
+        filteredFollowers.removeAll()
+        collectionView.setContentOffset(.zero, animated: true)
+        getFollowers(username: username, page: page)
     }
 }
