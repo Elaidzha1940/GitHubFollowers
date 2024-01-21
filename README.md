@@ -38,5 +38,21 @@ optional ? = guard let self = self else { return }
 28. ItemInfoVC - Superclass.
 29. ItemInfoVC - Subclass.
 30. Date Conversion & Date Label.
- 
+------------------
+31. Button Functionality - Delegates & Protocols.
+32. Persistence Setup.
+33. Persistence Manager.
+34. Persistence Manager - Make it Work.
+35. UITableView - FavoriteCell.
+36. UITableView - FavoritesVC.
+37. Optimization - UITabBarController, Screen Sizes & Constants.
+38. Optimization - GFAlertVC, Date Decoding, Network Refactor.
+39. Optimization - Search, Pagination, Empty State.
+40. Optimization - Variadic Parameters, Dynamic Type.
+-------------------
+41. Optimization - Persistence Manager, UITableView Extension.
+42. Optimization - Old iPhone SE - UserInfoVC Fixes.
+43. The Final Pass (Before iOS 15, 16, 17 Updates).
+44. Interview Next Steps - After Project Turn In.
+    
    
