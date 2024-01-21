@@ -41,7 +41,7 @@ class UserInfoVC: UIViewController {
                     self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
                     self.add(childVC: GFRepoItemVC(user: user), to: self.itemViewOne)
                     self.add(childVC: GFFollowerItemVC(user: user), to: self.itemViewTwo)
-                    self.dateLabel.text = "Date"
+                    self.dateLabel.text = "GitHub Since \(user.createdAt.convertToDisplayFormat())"
                 }
                 
             case .failure(let error):
