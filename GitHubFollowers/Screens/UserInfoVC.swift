@@ -8,10 +8,11 @@
 //  */
 
 import UIKit
+import SafariServices
 
 protocol UserInfoVCDelegate: AnyObject {
-    func didTapGitGubProfile()
-    func didTapGitGubFollowers()
+    func didTapGitGubProfile(for user: User)
+    func didTapGitGubFollowers(for user: User)
 }
 
 class UserInfoVC: UIViewController {
@@ -57,9 +58,10 @@ class UserInfoVC: UIViewController {
         repoItemVC.delegate = self
         
         let followerItemVC = GFFollowerItemVC(user: user)
+        followerItemVC.delegate = self
         
-        self.add(childVC: GFRepoItemVC(user: user), to: self.itemViewOne)
-        self.add(childVC: GFFollowerItemVC(user: user), to: self.itemViewTwo)
+        self.add(childVC: repoItemVC, to: self.itemViewOne)
+        self.add(childVC: followerItemVC, to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = "GitHub since \(user.createdAt.convertToDisplayFormat())"
     }
@@ -108,14 +110,17 @@ class UserInfoVC: UIViewController {
 }
 
 extension UserInfoVC: UserInfoVCDelegate {
-    func didTapGitGubProfile() {
-        // Show safari VC
+    func didTapGitGubProfile(for user: User) {
+        guard let url = URL(string: user.htmlUrl) else {
+            presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
+        }
+        
+        let safariVC = SFSafariViewController(url: url)
+        safariVC.preferredControlTintColor = .systemGreen
+        present(safariVC, animated: true)
     }
     
-    func didTapGitGubFollowers() {
-        // dismissVC
-        // tell follower list screen the new user
+    func didTapGitGubFollowers(for user: User) {
+        <#code#>
     }
-    
-    
 }

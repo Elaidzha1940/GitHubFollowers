@@ -31,6 +31,7 @@ class GFItemInfoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureBgView()
+        configureActionButton()
         configureStackView()
         layoutUI()
     }
@@ -47,6 +48,12 @@ class GFItemInfoVC: UIViewController {
         stackView.addArrangedSubview(itemInfoViewOne)
         stackView.addArrangedSubview(itemInfoViewTwo)
     }
+    
+    private func configureActionButton() {
+        actionButton.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc func actionButtonTapped() {}
     
     private func layoutUI() {
         view.addSubview(stackView)
@@ -65,8 +72,6 @@ class GFItemInfoVC: UIViewController {
             actionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             actionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             actionButton.heightAnchor.constraint(equalToConstant: 44),
-            
-            
         ])
     }
 }

@@ -21,5 +21,9 @@ class GFRepoItemVC: GFItemInfoVC {
         itemInfoViewTwo.set(itemInfoType: .gists, withCount: user.publicGists)
         actionButton.set(backgroundColor: .systemPink, title: "GitHub Profile")
     }
+    
+    override func actionButtonTapped() {
+        delegate.didTapGitGubFollowers(for: user)
+    }
 }
 
