@@ -28,16 +28,18 @@ enum PersistenceManager {
                 switch actionType {
                 case .add:
                     guard !retrieveFavorites.contains(favorite) else {
-                        completed(.invalidData)
+                        completed(.alreadyInFavorites)
+                        return
                     }
+                    retrieveFavorites.append(favorite)
                 case .remove:
-                    break
+                    retrieveFavorites.removeAll { $0.login == favorite.login }
                 }
                 
+                completed(save(favorites: favorites))
                 
             case .failure(let  error):
                 completed(error)
-                
             }
         }
     }
