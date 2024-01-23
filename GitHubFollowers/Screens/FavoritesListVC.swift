@@ -10,18 +10,47 @@
 import UIKit
 
 class FavoritesListVC: UIViewController {
+    
+    let tabelView = UITableView()
+    var favorites: [Follower] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemMint
-        
+        configureViewController()
+        getFavorites()
+    }
+    
+    func configureViewController() {
+        view.backgroundColor = .systemBackground
+        title = "Favorites"
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    func configureTableView() {
+        tabelView.delegate = self
+        tabelView.dataSource = self
+    }
+    
+    func getFavorites() {
         PersistenceManager.retrieveFavorites { result in
             switch result {
             case .success(let favorites):
-                break
+                self.favorites = favorites
             case .failure(let error):
                 break
             }
         }
     }
+}
+
+extension FavoritesListVC: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    
 }
