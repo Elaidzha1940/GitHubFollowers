@@ -1,12 +1,15 @@
 GitHubFollowers.
 ================
 
+weak self
+.........
 ```````````ruby 
 [weak self]
 
 optional ? = guard let self = self else { return }
 ```````````
 
+iPhone SE
 ```````````ruby
 
 enum ScreenSize {
