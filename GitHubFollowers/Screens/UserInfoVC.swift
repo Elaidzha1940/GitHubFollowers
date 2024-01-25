@@ -14,7 +14,7 @@ protocol UserInfoVCDelegate: AnyObject {
     func didTapGitGubFollowers(for user: User)
 }
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: GFDataLoadingVC {
     let headerView = UIView()
     let itemViewOne = UIView()
     let itemViewTwo = UIView()
