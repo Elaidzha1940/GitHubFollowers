@@ -10,8 +10,7 @@
 import UIKit
 
 protocol UserInfoVCDelegate: AnyObject {
-    func didTapGitGubProfile(for user: User)
-    func didTapGitGubFollowers(for user: User)
+    func didRequestFollowers(for username: String)
 }
 
 class UserInfoVC: GFDataLoadingVC {
@@ -22,7 +21,7 @@ class UserInfoVC: GFDataLoadingVC {
     var itemViews: [UIView] = []
     
     var username: String!
-    weak var delegate: FollowerListVCDelegate!
+    weak var delegate: UserInfoVCDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,7 +83,7 @@ class UserInfoVC: GFDataLoadingVC {
         
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            headerView.heightAnchor.constraint(equalToConstant: 180),
+            headerView.heightAnchor.constraint(equalToConstant: 200),
             
             itemViewOne.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
             itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
@@ -93,7 +92,7 @@ class UserInfoVC: GFDataLoadingVC {
             itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
             
             dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
-            dateLabel.heightAnchor.constraint(equalToConstant: 20),
+            dateLabel.heightAnchor.constraint(equalToConstant: 50),
         ])
     }
     
@@ -109,8 +108,7 @@ class UserInfoVC: GFDataLoadingVC {
     }
 }
 
-extension UserInfoVC: UserInfoVCDelegate {
-    
+extension UserInfoVC: GFRepoItemVCDelegate {
     func didTapGitGubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
@@ -118,7 +116,9 @@ extension UserInfoVC: UserInfoVCDelegate {
         }
         presentSafariVC(with: url)
     }
-    
+}
+
+extension UserInfoVC: GFFollowerItemVCDelegate {
     func didTapGitGubFollowers(for user: User) {
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 🙃.", buttonTitle: "So sad")
@@ -128,3 +128,4 @@ extension UserInfoVC: UserInfoVCDelegate {
         dismissVC()
     }
 }
+
