@@ -10,14 +10,16 @@
 import UIKit
 
 enum SFSymbols {
-    static let location = "mappin.and.ellipse"
-    static let repos = "folder.fill"
-    static let gists = "text.alignleft"
-    static let followers = "heart.fill"
-    static let following = "person.2.fill"
+    static let location  = UIImage(systemName: "mappin.and.ellipse")
+    static let repos     = UIImage(systemName: "folder.fill")
+    static let gists     = UIImage(systemName: "text.alignleft")
+    static let followers = UIImage(systemName: "heart.fill")
+    static let following = UIImage(systemName: "person.2.fill")
 }
 
 enum Images {
+    static let placeholder = UIImage(named: "avatar-placeholder")
+    static let emptyStateLogo = UIImage(named: "empty-state-logo")
     static let ghLogo = UIImage(named: "gh-logo")
 }
 
