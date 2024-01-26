@@ -54,6 +54,7 @@ class SearchVC: UIViewController {
         
     }
     
+    //MARK: iPhone SE
     func configureLogoImageView() {
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         logoImageView.image = Images.ghLogo

@@ -43,6 +43,7 @@
 		E4DA23492B5C3BBB0028A0AE /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA23482B5C3BBB0028A0AE /* GFRepoItemVC.swift */; };
 		E4DA234B2B5C3F140028A0AE /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DA234A2B5C3F140028A0AE /* GFFollowerItemVC.swift */; };
 		E4DEE07D2B5657B900D1013E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DEE07C2B5657B900D1013E /* UIHelper.swift */; };
+		E4EF16A92B64044E004773BB /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF16A82B64044E004773BB /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		E4DA23482B5C3BBB0028A0AE /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		E4DA234A2B5C3F140028A0AE /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		E4DEE07C2B5657B900D1013E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		E4EF16A82B64044E004773BB /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				E4703DE02B536CF50019FEEC /* UIViewController+Ext.swift */,
 				E4D66BCF2B5D237B0088AF4C /* Date+Ext.swift */,
 				E45FB6352B6286ED009BD983 /* UIView+Ext.swift */,
+				E4EF16A82B64044E004773BB /* UITableView+Ext.swift */,
 			);
 			path = Extansions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				E4703DED2B53A9770019FEEC /* NetworkManager.swift in Sources */,
 				E494452D2B51E73100EA90AC /* FollowerListVC.swift in Sources */,
 				E45D95682B5106F700A682FC /* AppDelegate.swift in Sources */,
+				E4EF16A92B64044E004773BB /* UITableView+Ext.swift in Sources */,
 				E4DA23492B5C3BBB0028A0AE /* GFRepoItemVC.swift in Sources */,
 				E45D956A2B5106F700A682FC /* SceneDelegate.swift in Sources */,
 			);
