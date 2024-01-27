@@ -15,13 +15,13 @@ protocol UserInfoVCDelegate: AnyObject {
 
 class UserInfoVC: GFDataLoadingVC {
     
-    let scrollView  = UIScrollView()
-    let contentView = UIView()
+    let scrollView          = UIScrollView()
+    let contentView         = UIView()
     
-    let headerView  = UIView()
-    let itemViewOne = UIView()
-    let itemViewTwo = UIView()
-    let dateLabel   = GFBodyLabel(textAlignment: .center)
+    let headerView          = UIView()
+    let itemViewOne         = UIView()
+    let itemViewTwo         = UIView()
+    let dateLabel           = GFBodyLabel(textAlignment: .center)
     var itemViews: [UIView] = []
     
     var username: String!
@@ -37,7 +37,7 @@ class UserInfoVC: GFDataLoadingVC {
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
-        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
+        let doneButton       = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
         navigationItem.rightBarButtonItem = doneButton
     }
     
@@ -79,7 +79,7 @@ class UserInfoVC: GFDataLoadingVC {
     func layoutUI() {
         itemViews = [headerView, itemViewOne, itemViewTwo, dateLabel]
         
-        let padding: CGFloat = 20
+        let padding: CGFloat    = 20
         let itemHeight: CGFloat = 140
         
         for itemView in itemViews {
@@ -125,6 +125,7 @@ extension UserInfoVC: GFRepoItemVCDelegate {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
             return
         }
+        
         presentSafariVC(with: url)
     }
 }
@@ -135,6 +136,7 @@ extension UserInfoVC: GFFollowerItemVCDelegate {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 🙃.", buttonTitle: "So sad")
             return
         }
+        
         delegate.didRequestFollowers(for: user.login)
         dismissVC()
     }
