@@ -16,8 +16,8 @@ enum ItemInfoType {
 class GFItemInfoView: UIView {
     
     let symbolImageView = UIImageView()
-    let titleLabel = GFTitleLabel(textAlignment: .left, fontSize: 15)
-    let countLabel = GFTitleLabel(textAlignment: .center, fontSize: 15)
+    let titleLabel      = GFTitleLabel(textAlignment: .left, fontSize: 15)
+    let countLabel      = GFTitleLabel(textAlignment: .center, fontSize: 15)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,10 +30,10 @@ class GFItemInfoView: UIView {
     
     private func configure() {
         addSubviews(symbolImageView, titleLabel, countLabel)
-    
+        
         symbolImageView.translatesAutoresizingMaskIntoConstraints = false
         symbolImageView.contentMode = .scaleAspectFill
-        symbolImageView.tintColor = .label
+        symbolImageView.tintColor   = .label
         
         NSLayoutConstraint.activate([
             symbolImageView.topAnchor.constraint(equalTo: self.topAnchor),
