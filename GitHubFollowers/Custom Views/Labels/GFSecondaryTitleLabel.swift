@@ -26,10 +26,10 @@ class GFSecondaryTitleLabel: UILabel {
     }
     
     private func congigure() {
-        textColor = .secondaryLabel
+        textColor                 = .secondaryLabel
         adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.90
-        lineBreakMode = .byTruncatingTail
+        minimumScaleFactor        = 0.90
+        lineBreakMode             = .byTruncatingTail
         translatesAutoresizingMaskIntoConstraints = false
     }
 }

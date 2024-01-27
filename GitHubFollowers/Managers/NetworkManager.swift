@@ -10,9 +10,10 @@
 import UIKit
 
 class NetworkManager {
-    static let shared = NetworkManager()
+     
+    static let shared    = NetworkManager()
     private  let baseURL = "https://api.github.com/users/"
-    let cache = NSCache<NSString, UIImage>()
+    let cache            = NSCache<NSString, UIImage>()
     
     private init() {}
     
@@ -52,7 +53,7 @@ class NetworkManager {
         }
         task.resume()
     }
-    //
+    
     func getUserInfo(for username: String, page: Int, completed: @escaping (Result<User, GFError>) -> ()) {
         let endpoint = baseURL + "\(username)"
         
@@ -91,7 +92,6 @@ class NetworkManager {
     }
     
     func downloadImage(from urlString: String, completed: @escaping (UIImage?) -> ()) {
-        
         let cacheKey = NSString(string: urlString)
         
         if let image = cache.object(forKey: cacheKey) {
@@ -122,3 +122,4 @@ class NetworkManager {
         task.resume()
     }
 }
+

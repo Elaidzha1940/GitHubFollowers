@@ -254,8 +254,8 @@
 		E4703DEE2B543CF60019FEEC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				E4703DEF2B543D2B0019FEEC /* GFError.swift */,
 				E4DEE07C2B5657B900D1013E /* UIHelper.swift */,
+				E4703DEF2B543D2B0019FEEC /* GFError.swift */,
 				E49AA7422B5A66BC001CA31D /* Constants.swift */,
 			);
 			path = Utilities;

@@ -10,7 +10,7 @@
 import UIKit
 
 class GFBodyLabel: UILabel {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         congigure()
@@ -26,12 +26,12 @@ class GFBodyLabel: UILabel {
     }
     
     private func congigure() {
-        textColor = .secondaryLabel
-        font = UIFont.preferredFont(forTextStyle: .body)
+        textColor                         = .secondaryLabel
+        font                              = UIFont.preferredFont(forTextStyle: .body)
         adjustsFontForContentSizeCategory = true
-        adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.75
-        lineBreakMode = .byWordWrapping
+        adjustsFontSizeToFitWidth         = true
+        minimumScaleFactor                = 0.75
+        lineBreakMode                     = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
 }

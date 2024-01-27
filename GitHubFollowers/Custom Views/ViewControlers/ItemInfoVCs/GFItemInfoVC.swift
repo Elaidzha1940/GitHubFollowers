@@ -16,10 +16,10 @@ protocol ItemInfoVCDelegate: AnyObject {
 
 class GFItemInfoVC: UIViewController {
     
-    let stackView = UIStackView()
+    let stackView       = UIStackView()
     let itemInfoViewOne = GFItemInfoView()
     let itemInfoViewTwo = GFItemInfoView()
-    let actionButton = GFButton()
+    let actionButton    = GFButton()
     
     var user: User!
     
@@ -42,12 +42,12 @@ class GFItemInfoVC: UIViewController {
     
     func configureBgView() {
         view.layer.cornerRadius = 20
-        view.backgroundColor = .secondarySystemBackground
+        view.backgroundColor    = .secondarySystemBackground
     }
     
     private func configureStackView() {
-        stackView.axis = .horizontal
-        stackView.distribution = .equalSpacing
+        stackView.axis          = .horizontal
+        stackView.distribution  = .equalSpacing
         
         stackView.addArrangedSubview(itemInfoViewOne)
         stackView.addArrangedSubview(itemInfoViewTwo)
