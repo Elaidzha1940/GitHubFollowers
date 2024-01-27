@@ -15,11 +15,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     // A window the App / It's when you have two windows on your IPad, Launch the App.
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
+        window                     = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene        = windowScene
         window?.rootViewController = GFTabBarController()
         window?.makeKeyAndVisible()
         
@@ -27,7 +26,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     // MARK: TabBar
-    
     
     func configureNavigationBar() {
         UINavigationBar.appearance().tintColor = .systemGreen
@@ -60,7 +58,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-    
-    
 }
 
