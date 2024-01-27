@@ -93,5 +93,12 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 42. Optimization - Old iPhone SE - UserInfoVC Fixes.
 43. The Final Pass (Before iOS 15, 16, 17 Updates).
 44. Interview Next Steps - After Project Turn In.
+45. iOS 15 - Initial Run.
+46. iOS 15 - Button Configurations.
+47. iOS 15 - Async/Await - Part 1.
+48. iOS 15 - Async/Await - Part 2.
+49. iOS 15 - Date Format.
+50. iOS 16 - Initial Run.
+-------------------
     
    
