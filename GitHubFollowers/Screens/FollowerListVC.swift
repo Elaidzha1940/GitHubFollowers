@@ -77,21 +77,36 @@ class FollowerListVC: GFDataLoadingVC {
         showLoadingView()
         isLoadingMoreFollowers = true
         
-        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-            guard let self = self else { return }
-            self.dismissLoadingView()
-            
-            switch result {
-            case .success(let followers):
-                self.updateUI(with: followers)
-                
-            case .failure(let error):
-                self.presentGFAlertOnMainThread(title: "Bad stuff", message: error.rawValue, buttonTitle: "Ok")
+        Task {
+            do {
+                let followers = try await NetworkManager.shared.getFollowers(for: username, page: page)
+                updateUI(with: followers)
+                dismissLoadingView()
+            } catch {
+                if let gfError = error as? GFError {
+                    presentGFAlert(title: <#T##String#>, message: <#T##String#>, buttonTitle: <#T##String#>)(title: "Bad stuff", message: gfError.rawValue, buttonTitle: "Ok")
+                } else {
+                    presentDefaultError()
+                }
             }
-            
-            self.isLoadingMoreFollowers = false
         }
     }
+    // Old way
+    // NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
+    //            guard let self = self else { return }
+    //            self.dismissLoadingView()
+    //
+    //            switch result {
+    //            case .success(let followers):
+    //                self.updateUI(with: followers)
+    //
+    //            case .failure(let error):
+    //                self.presentGFAlertOnMainThread(title: "Bad stuff", message: error.rawValue, buttonTitle: "Ok")
+    //            }
+    //
+    //            self.isLoadingMoreFollowers = false
+    //        }
+    
     
     func updateUI(with followers: [Follower]) {
         if followers.count < 100 { self.hasMoreFollowers = false }
