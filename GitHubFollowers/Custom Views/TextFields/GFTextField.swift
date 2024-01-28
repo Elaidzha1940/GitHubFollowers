@@ -24,7 +24,7 @@ class GFTextField: UITextField {
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
         
-        layer.cornerRadius        = 15
+        layer.cornerRadius        = 10
         layer.borderWidth         = 3
         layer.borderColor         = UIColor.systemGray4.cgColor
         
