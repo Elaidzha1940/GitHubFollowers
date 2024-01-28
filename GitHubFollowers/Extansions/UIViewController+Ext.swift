@@ -12,7 +12,7 @@ import SafariServices
 
 extension UIViewController {
     
-    func presentGFAlertOnMainThread(title: String, message: String, buttonTitle: String) {
+    func presentGFAlert(title: String, message: String, buttonTitle: String) {
         let alertVC = GFAlertVC(tile: title, message: message, buttonTitle: buttonTitle)
         alertVC.modalPresentationStyle = .overFullScreen
         alertVC.modalTransitionStyle = .crossDissolve
