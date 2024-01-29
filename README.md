@@ -14,6 +14,19 @@ after iOS
 guard let self else { return }
 ```````````
 
+//MARK: iOS 16
+---------------
+```````````ruby
+    func set(follower: Follower) {
+        if #available(iOS 16.0, *) {
+            contentConfiguration = UIHostingConfiguration { FollowerView(follower: follower) }
+        } else {
+            avatarImageView.downloadImage(from: follower.avatarUrl)
+            usernameLabel.text = follower.login
+        }
+    }
+```````````
+
 iPhone SE
 ---------
 ```````````ruby
