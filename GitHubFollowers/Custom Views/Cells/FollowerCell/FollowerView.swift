@@ -20,7 +20,7 @@ struct FollowerView: View {
                     .resizable()
                     .scaledToFit()
             } placeholder: {
-                Image("avatar-placeholder")
+                Image(.avatarPlaceholder)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 250, height: 250)
@@ -37,5 +37,4 @@ struct FollowerView: View {
 
 #Preview {
     FollowerView(follower: Follower(login: "Eli", avatarUrl: ""))
-    //.preferredColorScheme(.dark)
 }
