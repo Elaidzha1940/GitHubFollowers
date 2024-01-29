@@ -1,17 +1,17 @@
 GitHubFollowers.
 ================
 
-weak self
+weak self / optional ?
 ---------
 ```````````ruby 
 
 before iOS 15
--------------
-optional ? = guard let self = self else { return }
+
+guard let self = self else { return }
 
 after iOS
----------
-             guard let self else { return }
+
+guard let self else { return }
 ```````````
 
 iPhone SE
