@@ -26,7 +26,7 @@ class GFTextField: UITextField {
         
         layer.cornerRadius        = 10
         layer.borderWidth         = 3
-        layer.borderColor         = UIColor.systemGray4.cgColor
+        layer.borderColor         = UIColor.systemGray5.cgColor
         
         textColor                 = .label
         tintColor                 = .label

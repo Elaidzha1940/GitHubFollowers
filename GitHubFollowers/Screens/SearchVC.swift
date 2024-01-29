@@ -13,7 +13,7 @@ class SearchVC: UIViewController {
     
     let logoImageView      = UIImageView()
     let usernameTextField  = GFTextField()
-    let callToActionButton = GFButton(color: .systemGreen, title: "Get Followers", systemImageName: "person.3.fill")
+    let callToActionButton = GFButton(color: .systemMint, title: "Get Followers", systemImageName: "person.3.fill")
     
     var isUsernameEntered: Bool {
         return !usernameTextField.text!.isEmpty
@@ -63,8 +63,8 @@ class SearchVC: UIViewController {
         NSLayoutConstraint.activate([
             logoImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: topConstraintConstant),
             logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            logoImageView.heightAnchor.constraint(equalToConstant: 200),
-            logoImageView.widthAnchor.constraint(equalToConstant: 200)
+            logoImageView.heightAnchor.constraint(equalToConstant: 250),
+            logoImageView.widthAnchor.constraint(equalToConstant: 250)
         ])
     }
     
