@@ -31,7 +31,7 @@ class GFButton: UIButton {
     private func configure() {
         
         configuration = .tinted()
-        configuration?.cornerStyle = .medium
+        configuration?.cornerStyle = .capsule
         translatesAutoresizingMaskIntoConstraints = false
         
         //layer.cornerRadius = 15
@@ -48,8 +48,12 @@ class GFButton: UIButton {
         
         configuration?.image = UIImage(systemName: systemImageName)
         configuration?.imagePadding = 6
-        //configuration?.imagePlacement = .leading
+        configuration?.imagePlacement = .leading
         //self.backgroundColor = backgroundColor
         //setTitle(title, for: .normal)
     }
+}
+
+#Preview {
+    GFButton(color: .black, title: "Button", systemImageName: "person")
 }
