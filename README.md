@@ -118,5 +118,9 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 49. iOS 15 - Date Format.
 50. iOS 16 - Initial Run.
 -------------------
-    
+51. iOS 16 - SwiftUI in UIKit Cells.
+52. iOS 17 - Initial Run.
+53. iOS 17 - UIKit Previews.
+54. iOS 17 - UIContentUnavailableView.
+
    
