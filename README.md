@@ -63,7 +63,7 @@ The Ultimate Guide To iPhone Resolutions
 ```````````ruby
 https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
---
+-----------------
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="130" height="270">
