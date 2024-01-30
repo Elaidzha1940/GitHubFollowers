@@ -65,16 +65,16 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
 
 ------------------
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/ef39e92b-377b-456e-964b-bbadef2c7d6e" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/0b90a865-e5b1-4d5a-803d-4020873b353a" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/c5d0dc82-a95d-442c-af8f-fb72e51d7639" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/5fee104a-4f11-4645-9e01-b647991b7b65" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/732eec9d-d3cb-440c-bd88-8a0508d820f3" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="330" height="480">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="330" height="480">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/ef39e92b-377b-456e-964b-bbadef2c7d6e" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/0b90a865-e5b1-4d5a-803d-4020873b353a" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/c5d0dc82-a95d-442c-af8f-fb72e51d7639" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/5fee104a-4f11-4645-9e01-b647991b7b65" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/732eec9d-d3cb-440c-bd88-8a0508d820f3" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="250" height="380">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="250" height="380">
 
 ------------------
 
