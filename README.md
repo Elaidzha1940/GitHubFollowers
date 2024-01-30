@@ -79,7 +79,6 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ------------------
 
 
-
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
 3. Search Screen UI.                           
