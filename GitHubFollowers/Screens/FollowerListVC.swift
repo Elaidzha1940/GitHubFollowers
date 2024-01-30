@@ -49,6 +49,20 @@ class FollowerListVC: GFDataLoadingVC {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
+        if followers.isEmpty {
+            var config = UIContentUnavailableConfiguration.empty()
+            config.image = .init(systemName: "person.slash.fill")
+            config.text = "No Followers"
+            config.secondaryText = "This user has no followers. Go follow them!"
+            contentUnavailableConfiguration = config
+        } else if isSearching && filteredFollowers.isEmpty {
+        } else {
+            contentUnavailableConfiguration = nil
+            
+        }
+    }
+    
     func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -80,6 +94,7 @@ class FollowerListVC: GFDataLoadingVC {
         Task {
             do {
                 let followers = try await NetworkManager.shared.getFollowers(for: username, page: page)
+                //let followers: [Follower] = []
                 updateUI(with: followers)
                 dismissLoadingView()
             } catch {
@@ -93,7 +108,8 @@ class FollowerListVC: GFDataLoadingVC {
             }
         }
     }
-    // Old way
+    
+    // MARK: Old way
     // NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
     //            guard let self = self else { return }
     //            self.dismissLoadingView()
@@ -109,18 +125,18 @@ class FollowerListVC: GFDataLoadingVC {
     //            self.isLoadingMoreFollowers = false
     //        }
     
-    
     func updateUI(with followers: [Follower]) {
         if followers.count < 100 { self.hasMoreFollowers = false }
         self.followers.append(contentsOf: followers)
+        setNeedsUpdateContentUnavailableConfiguration()
         
-        if self.followers.isEmpty {
-            let message = "This user doesn't have any followers. Go follow them ☺️."
-            DispatchQueue.main.async {
-                self.showEmptyState(with: message, in: self.view)
-            }
-            return
-        }
+        // MARK: for empty state.
+        // if self.followers.isEmpty {
+        // let message = "This user doesn't have any followers. Go follow them ☺️."
+        // DispatchQueue.main.async { self.showEmptyState(with: message, in: self.view) }
+        // return
+        // }
+        
         self.updateData(on: self.followers)
     }
     
