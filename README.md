@@ -76,6 +76,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="130" height="270">
 ------------------
+
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
 3. Search Screen UI.                           
