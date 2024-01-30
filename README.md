@@ -63,7 +63,8 @@ The Ultimate Guide To iPhone Resolutions
 ```````````ruby
 https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
-```````````ruby
+
+------------------
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="130" height="270">
@@ -74,10 +75,10 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/732eec9d-d3cb-440c-bd88-8a0508d820f3" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="130" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="130" height="270">
+------------------
 
-```````````
-
-
+- 100% Programmatic UI / One complete app / No 3rd party libraries / Updated for iOS 15, 16 & iOS 17
+------------------
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
 3. Search Screen UI.                           
