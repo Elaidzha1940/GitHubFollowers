@@ -65,8 +65,8 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
 
 ------------------
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="165" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="165" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="165" height="270">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="165" height="270">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="165" height="290">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/ef39e92b-377b-456e-964b-bbadef2c7d6e" width="165" height="290">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/0b90a865-e5b1-4d5a-803d-4020873b353a" width="165" height="290">
