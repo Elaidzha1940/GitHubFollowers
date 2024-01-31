@@ -23,7 +23,7 @@ struct FollowerView: View {
                 Image(.avatarPlaceholder)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 250, height: 250)
+                    .frame(width: 100, height: 100)
             }
             .clipShape(Circle())
             

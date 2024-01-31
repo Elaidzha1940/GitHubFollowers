@@ -50,13 +50,14 @@ class FollowerListVC: GFDataLoadingVC {
     }
     
     override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
-        if followers.isEmpty {
+        if followers.isEmpty && !isLoadingMoreFollowers {
             var config = UIContentUnavailableConfiguration.empty()
             config.image = .init(systemName: "person.slash.fill")
             config.text = "No Followers"
             config.secondaryText = "This user has no followers. Go follow them!"
             contentUnavailableConfiguration = config
         } else if isSearching && filteredFollowers.isEmpty {
+            contentUnavailableConfiguration = UIContentUnavailableConfiguration.search()
         } else {
             contentUnavailableConfiguration = nil
             
@@ -236,6 +237,7 @@ extension FollowerListVC: UISearchResultsUpdating {
         isSearching       = true
         filteredFollowers = followers.filter { $0.login.lowercased().contains(filter.lowercased()) }
         updateData(on: filteredFollowers)
+        setNeedsUpdateContentUnavailableConfiguration()
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
