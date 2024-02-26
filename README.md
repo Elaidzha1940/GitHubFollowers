@@ -15,7 +15,7 @@ guard let self else { return }
 ```````````
 
 MARK: iOS 16
----------------
+------------
 ```````````ruby
     func set(follower: Follower) {
         if #available(iOS 16.0, *) {
@@ -64,7 +64,8 @@ The Ultimate Guide To iPhone Resolutions
 https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
 
-------------------
+-------------------
+
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="150" height="290">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="150" height="290">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="150" height="290">
@@ -76,8 +77,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="150" height="290">
 <img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="150" height="290">
 
-------------------
-
+-------------------
 
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
@@ -89,7 +89,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 8. Create Network Call - Get Follower.
 9. Refactor Error Messages.
 10. Result Type.
----------------- 
+------------------- 
 12. UICollectionView - Follower Cell UI.
 13. UICollectionView - Initial Setup.
 14. UICollectionView - Flow Layout.
@@ -99,7 +99,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 18. Pagination - Next 100 Followers.
 19. Loading View.
 20. Empty State.
------------------
+-------------------
 21. Search Functionality.
 22. Modal & Passing Data.
 23. Network Call - Get User Info.
@@ -110,7 +110,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 28. ItemInfoVC - Superclass.
 29. ItemInfoVC - Subclass.
 30. Date Conversion & Date Label.
-------------------
+-------------------
 31. Button Functionality - Delegates & Protocols.
 32. Persistence Setup.
 33. Persistence Manager.
@@ -137,5 +137,4 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 52. iOS 17 - Initial Run.
 53. iOS 17 - UIKit Previews.
 54. iOS 17 - UIContentUnavailableView.
-
-   
+-------------------
