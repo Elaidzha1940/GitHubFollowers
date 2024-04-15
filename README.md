@@ -12,8 +12,21 @@ Fun Facts:
   
 ----------
 
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/ef39e92b-377b-456e-964b-bbadef2c7d6e" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/0b90a865-e5b1-4d5a-803d-4020873b353a" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/c5d0dc82-a95d-442c-af8f-fb72e51d7639" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/5fee104a-4f11-4645-9e01-b647991b7b65" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/732eec9d-d3cb-440c-bd88-8a0508d820f3" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="150" height="290">
+<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="150" height="290">
+
+----------
+
 weak self / optional ?
----------
+----------
 ```````````ruby 
 
 before iOS 15
@@ -75,20 +88,7 @@ The Ultimate Guide To iPhone Resolutions
 https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 ```````````
 
--------------------
-
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/35953ebb-feeb-4f2b-9a02-0373571d4955" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/aab304a1-afd9-4c0e-b5e4-5f5e87302c75" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/97e6ee19-1820-4985-a845-59cfa2eb78d2" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/ef39e92b-377b-456e-964b-bbadef2c7d6e" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/0b90a865-e5b1-4d5a-803d-4020873b353a" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/c5d0dc82-a95d-442c-af8f-fb72e51d7639" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/5fee104a-4f11-4645-9e01-b647991b7b65" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/732eec9d-d3cb-440c-bd88-8a0508d820f3" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/f4dc28c4-5dc8-40ef-b9a2-08bd3e22ec25" width="150" height="290">
-<img src="https://github.com/Elaidzha1940/GitHubFollowers/assets/64445918/d4e1802e-d95e-4e12-8611-97ee081c07b0" width="150" height="290">
-
--------------------
+-----------
 
 1. Project Setup.                                                                        
 2. Custom UIButton & UITextField.             
@@ -100,7 +100,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 8. Create Network Call - Get Follower.
 9. Refactor Error Messages.
 10. Result Type.
-------------------- 
+-----------
 12. UICollectionView - Follower Cell UI.
 13. UICollectionView - Initial Setup.
 14. UICollectionView - Flow Layout.
@@ -110,7 +110,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 18. Pagination - Next 100 Followers.
 19. Loading View.
 20. Empty State.
--------------------
+------------
 21. Search Functionality.
 22. Modal & Passing Data.
 23. Network Call - Get User Info.
@@ -121,7 +121,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 28. ItemInfoVC - Superclass.
 29. ItemInfoVC - Subclass.
 30. Date Conversion & Date Label.
--------------------
+------------
 31. Button Functionality - Delegates & Protocols.
 32. Persistence Setup.
 33. Persistence Manager.
@@ -132,7 +132,7 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 38. Optimization - GFAlertVC, Date Decoding, Network Refactor.
 39. Optimization - Search, Pagination, Empty State.
 40. Optimization - Variadic Parameters, Dynamic Type.
--------------------
+------------
 41. Optimization - Persistence Manager, UITableView Extension.
 42. Optimization - Old iPhone SE - UserInfoVC Fixes.
 43. The Final Pass (Before iOS 15, 16, 17 Updates).
@@ -143,9 +143,9 @@ https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
 48. iOS 15 - Async/Await - Part 2.
 49. iOS 15 - Date Format.
 50. iOS 16 - Initial Run.
--------------------
+-------------
 51. iOS 16 - SwiftUI in UIKit Cells.
 52. iOS 17 - Initial Run.
 53. iOS 17 - UIKit Previews.
 54. iOS 17 - UIContentUnavailableView.
--------------------
+-------------
