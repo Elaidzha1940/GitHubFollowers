@@ -1,4 +1,4 @@
-⌨️ GitHub Follower: My iOS Dev Tale.
+⌨️ GitHub Follower.
 ==========
 
 - Embark on a code adventure. Sleek UI, smooth data moves, and network call magic.
