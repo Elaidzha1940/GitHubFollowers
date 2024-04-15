@@ -1,5 +1,14 @@
-GitHubFollowers.
+⌨️ GitHub Follower: My iOS Dev Tale.
 ================
+
+Fun Facts:
+----------
+- UIKit and SwiftUI combo.
+- 100 % Programmatic UI.
+- Zero 3rd party libs.
+- Fresh for iOS 15, 16 & 17.
+  
+----------
 
 weak self / optional ?
 ---------
